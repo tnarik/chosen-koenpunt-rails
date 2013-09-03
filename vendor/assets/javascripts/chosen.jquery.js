@@ -1,3 +1,3 @@
-//= require lib/abstract-chosen
-//= require lib/select-parser
-//= require chosen.jquery
+//= require chosen-koenpunt/lib/abstract-chosen
+//= require chosen-koenpunt/lib/select-parser
+//= require chosen-koenpunt/chosen.jquery
