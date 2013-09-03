@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = ChosenKoenpuntRails::VERSION
   gem.authors       = ["tnarik"]
   gem.email         = ["tnarik@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Integrate Koenpunt branch of the Chosen javascript library with the Rails asset pipeline}
+  gem.summary       = %q{Integrate Koenpunt branch of the Chosen javascript library with the Rails asset pipeline}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
