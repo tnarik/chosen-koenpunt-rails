@@ -1,5 +1,10 @@
 require "chosen-koenpunt-rails/version"
 
-module ChosenKoenpuntRails
-  # Your code goes here...
+module Chosen
+	module Koenpunt
+  	module Rails
+    	class Engine < ::Rails::Engine
+    	end
+    end
+  end
 end

@@ -5,7 +5,7 @@ require 'chosen-koenpunt-rails/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "chosen-koenpunt-rails"
-  gem.version       = ChosenKoenpuntRails::VERSION
+  gem.version       = Chosen::Koenpunt::Rails::VERSION
   gem.authors       = ["tnarik"]
   gem.email         = ["tnarik@gmail.com"]
   gem.description   = %q{Integrate Koenpunt branch of the Chosen javascript library with the Rails asset pipeline}

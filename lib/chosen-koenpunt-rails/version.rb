@@ -1,3 +1,7 @@
-module ChosenKoenpuntRails
-  VERSION = "0.0.2"
+module Chosen
+	module Koenpunt
+  	module Rails
+  	  VERSION = "0.0.3"
+  	end
+  end
 end
