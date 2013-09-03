@@ -1,4 +1,5 @@
 require "chosen-koenpunt-rails/version"
+require 'compass-rails'
 
 module Chosen
 	module Koenpunt
