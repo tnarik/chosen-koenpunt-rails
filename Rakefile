@@ -10,7 +10,7 @@ ROOT        = Pathname(File.dirname(__FILE__))
 LOGGER      = Logger.new(STDOUT)
 BUNDLES     = %w( chosen.jquery.js )
 COPIES     = %w( chosen.scss )
-BUILD_DIR   = ROOT.join("vendor")
+BUILD_DIR   = ROOT.join("vendor", "assets")
 SOURCE_DIR  = ROOT.join("src")
 
 task :compile do

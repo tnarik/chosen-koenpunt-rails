@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Integrate Koenpunt branch of the Chosen javascript library with the Rails asset pipeline}
   gem.homepage      = ""
 
-  gem.files         = `git ls-files`.split($/)
+  gem.files         = Dir['vendor/**/*'] + %w( README.md LICENSE.txt)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
